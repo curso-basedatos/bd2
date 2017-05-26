@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.process.DPVProcess" name="Data Flow Diagram_1" id="79CAE523-3408-9B7D-58A2-F044C8AD0D35">
+<createdBy>campitos</createdBy>
+<modifiedBy>campitos</modifiedBy>
+<createdTime>2017-05-25 04:05:08 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+</Diagram>

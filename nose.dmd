@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="nose" id="A4A03A02-1627-C33E-721E-07BB277A0C07" version="3.5">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 04:04:32 UTC</createdTime>
+<ownerDesignName>nose</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A4A03A02-1627-C33E-721E-07BB277A0C07</designId>
+</OSDM_Design>
