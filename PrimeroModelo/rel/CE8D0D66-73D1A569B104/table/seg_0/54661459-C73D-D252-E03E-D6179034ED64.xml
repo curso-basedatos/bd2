@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54661459-C73D-D252-E03E-D6179034ED64" schemaObject="78954B48-674C-E0DE-63A4-5801407F9982" name="VENDEDOR">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>VENDEDOR</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_VENDEDOR" id="A268EB0B-DD57-ED59-AFBC-99438F397E1D">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>VENDEDOR</sourceObjSchema>
+<sourceObjName>NUMERO_VENDEDOR</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_VENDEDOR" id="4CCA0422-F646-C561-E45D-8254F8A17D27">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>VENDEDOR</sourceObjSchema>
+<sourceObjName>NOMBRE_VENDEDOR</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 BYTE</dataTypeSize>
+<ownDataTypeParameters>60 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AREA_VENTAS" id="E0BB68E8-872C-A47D-0975-F3F926CCA8ED">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>VENDEDOR</sourceObjSchema>
+<sourceObjName>AREA_VENTAS</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="910B0D9E-D4C6-8F0F-CF3F-8E4AF051997F" name="PK_NV">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_NV</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A268EB0B-DD57-ED59-AFBC-99438F397E1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="954ACDA3-09DF-4044-2C5F-B5B11D95DC5E" schemaObject="78954B48-674C-E0DE-63A4-5801407F9982" name="PK_NV">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_NV</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A268EB0B-DD57-ED59-AFBC-99438F397E1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

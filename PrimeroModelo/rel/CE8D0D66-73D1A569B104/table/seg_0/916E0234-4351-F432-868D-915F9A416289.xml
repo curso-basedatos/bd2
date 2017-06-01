@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="916E0234-4351-F432-868D-915F9A416289" schemaObject="78954B48-674C-E0DE-63A4-5801407F9982" name="VENTAS">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>VENTAS</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENTAS" id="3F18EB8C-CEE2-E662-58FC-66AD8CBC10C6">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>ID_VENTAS</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO_CLIENTE" id="9D6030AC-ECFB-8CAC-CC53-78E5E944C4F6">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>NUMERO_CLIENTE</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB1003B1-6E31-8541-78B3-DE60E7269CE5" referredColumn="8202A382-F354-BFFE-D83C-96F391E8D067"/>
+</associations>
+</Column>
+<Column name="NUMERO_VENDEDOR" id="99653CE1-D320-A318-2843-0B5CA806E929">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>NUMERO_VENDEDOR</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B698EF28-25C1-8CC8-E148-FCEEADD384D5" referredColumn="A268EB0B-DD57-ED59-AFBC-99438F397E1D"/>
+</associations>
+</Column>
+<Column name="MONTO_VENTA" id="74B3E71F-FE1E-D999-E799-FE88CFC3FACD">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>MONTO_VENTA</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D1C3258-AC7F-B2B6-8400-5BFC2933EDB8" name="PK_IDVv1">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_IDVv1</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F18EB8C-CEE2-E662-58FC-66AD8CBC10C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B990326C-C9C5-409A-2479-8CF425474FAD" schemaObject="78954B48-674C-E0DE-63A4-5801407F9982" name="PK_IDVv1">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_IDV</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F18EB8C-CEE2-E662-58FC-66AD8CBC10C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D77BAC10-B1F7-08EA-93F1-110AA8BBEFB4" name="FK_NC1">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:28 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D6030AC-ECFB-8CAC-CC53-78E5E944C4F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33342461-B476-C5E2-EF1A-26B4CC199014" name="FK_NV1">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:28 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99653CE1-D320-A318-2843-0B5CA806E929"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

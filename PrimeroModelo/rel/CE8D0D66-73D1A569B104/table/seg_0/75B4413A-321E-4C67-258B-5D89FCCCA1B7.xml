@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75B4413A-321E-4C67-258B-5D89FCCCA1B7" schemaObject="78954B48-674C-E0DE-63A4-5801407F9982" name="ALMACEN">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>ALMACEN</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:49 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO_ALMACEN" id="BEA98F7E-AAF2-8BD0-7B81-DA6A92A065CE">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>NUMERO_ALMACEN</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:50 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UBICACION_ALMACEN" id="E3FBA4B3-A39B-F529-326F-D84A34C1022E">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>ALMACEN</sourceObjSchema>
+<sourceObjName>UBICACION_ALMACEN</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:50 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EF5064A-8A9C-F001-F25A-5421CBAC3132" name="PK_NA">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_NA</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:51 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEA98F7E-AAF2-8BD0-7B81-DA6A92A065CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A0F73FE-CE68-BC0E-43B7-A8F22998A4C2" schemaObject="78954B48-674C-E0DE-63A4-5801407F9982" name="PK_NA">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_NA</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:51 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BEA98F7E-AAF2-8BD0-7B81-DA6A92A065CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

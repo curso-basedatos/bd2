@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="D82B3D7D-F687-5074-328B-200EA8142B1F">
+<sourceConnName>campitos</sourceConnName>
+<sourceObjName>SYSTEM</sourceObjName>
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:48 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<schemaObject>78954B48-674C-E0DE-63A4-5801407F9982</schemaObject>
+<defTableSpace>66980943-A159-53B2-3C45-A85A46083498</defTableSpace>
+<privileges>GLOBAL QUERY REWRITE, CREATE MATERIALIZED VIEW, CREATE TABLE, SELECT ANY TABLE</privileges>
+<privilegesWithAdminOption>UNLIMITED TABLESPACE</privilegesWithAdminOption>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="B89EDB99-76BC-7436-05C3-2D6FFA2338B4">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:49 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="917BD33E-DE31-F7F9-290B-F1D09F1D73CE">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:49 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem3" id="4BF76EC2-374E-5864-BD1C-B304962D2E2B">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:17:37 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem4" id="411371BD-D311-35E7-30E8-60C23733E4F7">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:17:37 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem5" id="C6535177-E504-9894-9B49-7CCDC1635D32">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:25 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem6" id="69CBEDCF-017B-BCF2-05EE-4F80BB305656">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:25 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem7" id="990BF2D4-7CF2-E91E-7C56-7D788D40CD87">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem8" id="5B9345D1-973E-D0AF-06D2-8F28E3913407">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem9" id="956AD8A3-8E0F-FDF6-79B5-B443C15BA957">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem10" id="5BD28661-374D-FC3F-450F-85AC1FE8B4A8">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:28:27 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<size>0</size>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

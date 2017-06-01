@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="ALMACEN" directorySegmentName="seg_0" id="75B4413A-321E-4C67-258B-5D89FCCCA1B7">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:49 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<schemaObject>78954B48-674C-E0DE-63A4-5801407F9982</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F7A406BF-0A2A-F580-3C49-14DB62194F1E</segment>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUMERO_ALMACEN" id="BEA98F7E-AAF2-8BD0-7B81-DA6A92A065CE">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:50 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UBICACION_ALMACEN" id="E3FBA4B3-A39B-F529-326F-D84A34C1022E">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:50 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_NA" id="8A0F73FE-CE68-BC0E-43B7-A8F22998A4C2">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:51 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<schemaObject>78954B48-674C-E0DE-63A4-5801407F9982</schemaObject>
+<segment>5207BAA6-1A62-2614-C24E-43A11F597036</segment>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_NA" id="7EF5064A-8A9C-F001-F25A-5421CBAC3132">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:15:51 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<segment>5207BAA6-1A62-2614-C24E-43A11F597036</segment>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+<existingIndex>8A0F73FE-CE68-BC0E-43B7-A8F22998A4C2</existingIndex>
+<indexSegment>5207BAA6-1A62-2614-C24E-43A11F597036</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>

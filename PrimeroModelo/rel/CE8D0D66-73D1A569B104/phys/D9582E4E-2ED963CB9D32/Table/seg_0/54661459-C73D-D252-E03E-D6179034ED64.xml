@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableProxyOraclev10g" name="VENDEDOR" directorySegmentName="seg_0" id="54661459-C73D-D252-E03E-D6179034ED64">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<schemaObject>78954B48-674C-E0DE-63A4-5801407F9982</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>F7A406BF-0A2A-F580-3C49-14DB62194F1E</segment>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE_VENDEDOR" id="4CCA0422-F646-C561-E45D-8254F8A17D27">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO_VENDEDOR" id="A268EB0B-DD57-ED59-AFBC-99438F397E1D">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AREA_VENTAS" id="E0BB68E8-872C-A47D-0975-F3F926CCA8ED">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_NV" id="954ACDA3-09DF-4044-2C5F-B5B11D95DC5E">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<schemaObject>78954B48-674C-E0DE-63A4-5801407F9982</schemaObject>
+<segment>5207BAA6-1A62-2614-C24E-43A11F597036</segment>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_NV" id="910B0D9E-D4C6-8F0F-CF3F-8E4AF051997F">
+<createdBy>campitos</createdBy>
+<createdTime>2017-05-25 00:18:35 UTC</createdTime>
+<ownerDesignName>PrimeroModelo</ownerDesignName>
+<segment>5207BAA6-1A62-2614-C24E-43A11F597036</segment>
+<tableSpace>66980943-A159-53B2-3C45-A85A46083498</tableSpace>
+<existingIndex>954ACDA3-09DF-4044-2C5F-B5B11D95DC5E</existingIndex>
+<indexSegment>5207BAA6-1A62-2614-C24E-43A11F597036</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev10g>
