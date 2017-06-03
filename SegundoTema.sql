@@ -68,3 +68,4 @@ select * from vendedor;
 select * from almacen;
 
 
+
