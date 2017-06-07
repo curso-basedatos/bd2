@@ -39,7 +39,37 @@ INSERT INTO SALA_CINE VALUES(MY_ID, MY_PELICULA);
 END;
 /
 
+SELECT * FROM SALA_CINE;
 
-select * from sala_cine;
+DECLARE 
+VALOR INTEGER;
+BEGIN
+GUARDAR_SALA_CINE(VALOR, 'HUYE');
+END;
+/
+
+set serveroutput on;
+declare
+cantidad integer;
+begin
+select count(*) into cantidad from sala_cine;
+dbms_output.put_line(cantidad);
+end;
+/
+
+declare
+cursor cur_sala is select * from sala_cine;
+begin
+for rec in cur_sala loop
+dbms_output.put_line(lower(rec.pelicula));
+end loop;
+end;
+/
+
+select * from cliente;
+select * from ventas;
+select * from vendedor;
+select * from almacen
+
 
 
