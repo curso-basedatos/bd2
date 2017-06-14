@@ -314,6 +314,8 @@ END;
 /
 
 SELECT   * FROM  direccion;
+select * from vendedor;
 
 select * from direccion;
 insert into direccion values(1,12,'13',12,'ecatepec');
+
