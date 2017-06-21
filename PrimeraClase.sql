@@ -247,6 +247,77 @@ BEGIN
 END;
 /
 
+SELECT
+    *
+FROM
+    ventas;
+    
+    
+      --quiero saber el nombre del vendendor el monto de ventas
+
+DECLARE
+    CURSOR cur_ventas IS
+        SELECT
+            *
+        FROM
+            ventas;
+
+    CURSOR cur_vendedor IS
+        SELECT
+            *
+        FROM
+            vendedor;
+
+BEGIN
+    FOR rec_ventas IN cur_ventas LOOP
+        FOR rec_vendedor IN cur_vendedor LOOP
+            IF
+                rec_vendedor.numero_vendedor = rec_ventas.numero_vendedor
+            THEN
+                dbms_output.put_line(''
+                 || rec_ventas.id_ventas
+                 || '  '
+                 || rec_vendedor.nombre_vendedor
+                 || '  '
+                 || rec_ventas.monto_venta);
+
+            END IF;
+        END LOOP;
+    END LOOP;
+END;
+/
+
+SET SERVEROUTPUT ON;
+
+CREATE TABLE direccion (
+    id          INTEGER PRIMARY KEY,
+    numero      INTEGER,
+    calle       VARCHAR2(60),
+    cp          INTEGER,
+    municipio   VARCHAR2(80)
+);
+
+CREATE SEQUENCE sec_direccion START WITH 1 INCREMENT BY 1 NOMAXVALUE;
+
+CREATE OR REPLACE TRIGGER disp_direccion BEFORE
+    INSERT ON direccion
+    FOR EACH ROW
+BEGIN
+    SELECT
+        sec_direccion.NEXTVAL
+    INTO
+        :new.id
+    FROM
+        dual;
+
+END;
+/
+
+SELECT   * FROM  direccion;
+select * from vendedor;
+
+select * from direccion;
+insert into direccion values(1,12,'13',12,'ecatepec');
 SELECT   * FROM ventas;
     
     
