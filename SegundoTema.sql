@@ -68,4 +68,64 @@ select * from vendedor;
 select * from almacen;
 
 
+create table primera(id integer primary key, nombre varchar2(30));
+create table respaldo(id integer primary key, nombre varchar2(30));
+-- un secreto para la secuencia
+create sequence sec_primera 
+start with 1
+increment by 1
+nomaxvalue;
+
+create or replace trigger dis_insertar before insert on primera for each row
+begin
+select sec_primera.nextval into :new.id from dual;
+end;
+/
+
+create or replace trigger t_respaldo before insert on primera for each row
+declare
+valor integer;
+cursor cur_primera is select * from primera;
+begin
+ select count(*) into valor from primera;
+ if valor >=3 then
+ for rec in cur_primera loop
+ insert into respaldo values(rec.id, rec.nombre);
+ end loop;
+ delete from primera;
+ end if;
+ end;
+ /
+
+ 
+ 
+ insert into primera(id,nombre) values(8,'juan');
+ select * from primera;
+ select * from respaldo;
+ 
+ 
+ 
+ declare
+ hora varchar2(10);
+ fecha varchar2(10);
+ dia varchar(7);
+ minutos varchar2(7);
+ segundos varchar2(7);
+ begin
+ fecha:=to_char(sysdate);
+ dia:=to_char(sysdate,'hh');
+ minutos:=to_char(sysdate,'mi');
+ segundos:=to_char(sysdate,'ss');
+ dbms_output.put_line(dia);
+ if dia='09' then
+  dbms_output.put_line('son las nueve');
+  else
+   dbms_output.put_line('Pasan de las nueve');
+  end if;
+   dbms_output.put_line('minutos '||minutos);
+    dbms_output.put_line('segundos '||segundos);
+end;
+/
+set serveroutput on;
+
 
