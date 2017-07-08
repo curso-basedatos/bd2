@@ -11,7 +11,7 @@ declare
  hora:=to_char(sysdate,'hh');
  minutos:=to_char(sysdate,'mi');
  segundos:=to_char(sysdate,'ss');
- dbms_output.put_line(dia);
+ dbms_output.put_line(hora);
  if hora='09' then
   dbms_output.put_line('son las nueve');
   else
